@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de Convite</title>
+    <link rel="stylesheet" href="estilo.css"> 
+    
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Admin Dashboard</h2>
+        <a href="#">Início</a>
+        <a href="#">Gerenciar Lojas</a>
+        <a href="#">Gerenciar Gráficas</a>
+        <a href="#">Criar Convite</a>
+        <a href="#">Iniciar Campanha</a>
+    </div>
+    <div class="main-content">
+        <div class="header">Criação de Convite</div>
+        <div class="form-group">
+            <label for="storeName">Nome da Loja</label>
+            <input type="text" id="storeName" name="storeName" placeholder="Digite o nome da loja">
+        </div>
+        <div class="form-group">
+            <label for="city">Cidade</label>
+            <input type="text" id="city" name="city" placeholder="Digite a cidade">
+        </div>
+        <div class="form-group">
+            <label for="representativeEmail">E-mail do Representante</label>
+            <input type="email" id="representativeEmail" name="representativeEmail" placeholder="Digite o e-mail do representante">
+        </div>
+        <div class="form-group">
+            <label for="invitationMessage">Mensagem de Convite</label>
+            <textarea id="invitationMessage" name="invitationMessage" rows="4" placeholder="Digite a mensagem de convite"></textarea>
+        </div>
+        <div class="button-container">
+            <button>Enviar Convite</button>
+            <button>Limpar Formulário</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edição da Gráfica</title>
+    <link rel="stylesheet" href="estilo.css"> 
+    
+
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Admin Dashboard</h2>
+        <a href="#">Início</a>
+        <a href="#">Gerenciar Lojas</a>
+        <a href="#">Gerenciar Gráficas</a>
+        <a href="#">Criar Convite</a>
+        <a href="#">Iniciar Campanha</a>
+    </div>
+    <div class="main-content">
+        <div class="header">Edição da Gráfica</div>
+        <div class="form-group">
+            <label for="printShopName">Nome da Gráfica</label>
+            <input type="text" id="printShopName" name="printShopName" value="Gráfica XYZ">
+        </div>
+        <div class="form-group">
+            <label for="contactEmail">E-mail do Contato</label>
+            <input type="email" id="contactEmail" name="contactEmail" value="contato@graficaxyz.com">
+        </div>
+        <div class="store-list">
+            <label>Lojas Atendidas</label>
+            <div class="store-item">
+                <input type="checkbox" id="store1" name="store1" value="Loja Renner 1">
+                <label for="store1">Loja Renner 1 - São Paulo</label>
+                <button>Retirar</button>
+            </div>
+            <div class="store-item">
+                <input type="checkbox" id="store2" name="store2" value="Loja Renner 2">
+                <label for="store2">Loja Renner 2 - Rio de Janeiro</label>
+                <button>Retirar</button>
+            </div>
+            <div class="store-item">
+                <input type="checkbox" id="store3" name="store3" value="Loja Renner 3">
+                <label for="store3">Loja Renner 3 - Curitiba</label>
+                <button>Retirar</button>
+            </div>
+            <!-- Adicione mais lojas conforme necessário -->
+        </div>
+        <div class="add-store">
+            <button>Adicionar Loja</button>
+        </div>
+        <div class="invite-container">
+            <button>Enviar Convite</button>
+        </div>
+        <div class="button-container">
+            <button>Salvar Alterações</button>
+            <button>Cancelar</button>
+        </div>
+    </div>
+</body>
+</html>

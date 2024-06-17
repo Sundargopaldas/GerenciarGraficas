@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Gráficas</title>
+    <link rel="stylesheet" href="estilo.css"> 
+    
+        
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Admin Dashboard</h2>
+        <a href="#">Início</a>
+        <a href="#">Gerenciar Lojas</a>
+        <a href="#">Gerenciar Gráficas</a>
+        <a href="#">Criar Convite</a>
+        <a href="#">Iniciar Campanha</a>
+    </div>
+    <div class="main-content">
+        <div class="header">Gestão de Gráficas</div>
+        <div class="button-container">
+            <button>Adicionar Nova Gráfica</button>
+            <input type="text" placeholder="Buscar gráficas..." />
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome da Gráfica</th>
+                    <th>Cidades Atendidas</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gráfica XYZ</td>
+                    <td>São Paulo, Rio de Janeiro</td>
+                    <td class="actions">
+                        <button>Editar</button>
+                        <button class="delete">Excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gráfica ABC</td>
+                    <td>Curitiba, Porto Alegre</td>
+                    <td class="actions">
+                        <button>Editar</button>
+                        <button class="delete">Excluir</button>
+                    </td>
+                </tr>
+                <!-- Adicione mais linhas conforme necessário -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
